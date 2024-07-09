@@ -1,0 +1,9 @@
+symbols_and_footprints/
+manufacturing/
+*.xml
+fp*
+*.kicad_prl
+*-backups/
+sym-lib-table
+bottom_plate/
+.gitignore
