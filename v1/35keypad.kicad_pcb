@@ -34891,6 +34891,16 @@
 		(uuid "15644374-9295-4d3c-8ce4-f6b051ab0be6")
 	)
 	(gr_line
+		(start 143.6116 56.4896)
+		(end 164.7444 35.3568)
+		(stroke
+			(width 2)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "17aeae24-4da5-420d-a388-5018f16951c0")
+	)
+	(gr_line
 		(start 53.634 48.504)
 		(end 53.634 142.504)
 		(stroke
@@ -34941,6 +34951,17 @@
 		)
 		(layer "Cmts.User")
 		(uuid "d3c6384c-958d-44e2-b7ad-6d0a21c0d9d8")
+	)
+	(gr_rect
+		(start 132.7404 56.4896)
+		(end 143.6116 67.3608)
+		(stroke
+			(width 2)
+			(type default)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "d97a8366-4607-4adb-95a9-f949ead2d44e")
 	)
 	(gr_line
 		(start 56.555 145.425)
@@ -35068,6 +35089,32 @@
 			(font
 				(size 1.5 1.5)
 				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Diodes need to be move away \nfrom hot swap socket pad 2"
+		(at 50.4444 39.9288 0)
+		(layer "Cmts.User")
+		(uuid "4c05a709-f15a-4759-8815-e2ce90062d16")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "error\nmcu and capacitors \ngo under hot swap socket"
+		(at 164.7444 35.3568 0)
+		(layer "Cmts.User")
+		(uuid "9bf34ae4-2ca5-4383-8f3c-41a78fcdd72b")
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
 				(bold yes)
 			)
 			(justify left bottom)
